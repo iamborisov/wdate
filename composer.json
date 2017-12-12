@@ -1,0 +1,23 @@
+{
+    "name": "iamborisov/wdate",
+    "description": "Custom Date class",
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "v6.5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Borisov",
+            "email": "iamborisov@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "App\\Tests\\": "tests/"
+        }
+    }
+}
+
